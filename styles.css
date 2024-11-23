@@ -1,0 +1,45 @@
+
+
+body {
+    font-family: Helvetica;
+    background-color: black;
+    color: azure;
+}
+
+.enfase {
+        font-family: 'Dela Gothic One', sans-serif;
+    }
+
+img {
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;    
+}
+
+form{
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#container img {
+    width: 40%;
+    height: auto;
+}
+
+#texto {
+    max-width: 45%;
+}
+
+#container h1, #container p {
+    margin: 0;
+}

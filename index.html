@@ -29,11 +29,13 @@
         <form>
             <div class="container-form">
             <h2 class="enfase">Inscreva-se aqui</h2>
-            <label for="nome">Nome Completo:</label><br>
-                <input type="text"><br>
+            <label for="nome">Nome:</label><br>
+                <input type="text" name="nome"><br>
             <label for="email">Email:</label><br>
-                <input type="email"><br>
-            <input type="button" onclick="alert('Sua inscrição foi enviada com sucesso!')" value="inscreva-se">
+                <input type="email" name="email"><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" name="telefone" placeholder="(xx) x-xxxx-xxxx"><br>
+            <button type="submit" onclick="alert('Sua inscrição foi enviada com sucesso!')">INSCREVA-SE</buttonbutton>
             </div>
         </form>
     </main>

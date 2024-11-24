@@ -47,12 +47,44 @@ form{
 }
 
 .container-form {
-    justify-content: center;
     background-color: #e6e6e6;
     padding: 20px;
     border-radius: 10px;
-    margin: 0;
+    margin-top: 130px;
+    margin-bottom: 130px;
     width: 300px;
+}
+
+form h2 {
+    text-align: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 20px auto;
+    margin: 5px auto 10px auto;
+    border: 2px solid #cccccc;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgba(228, 171, 16, 0.918);
+    color: #ffffff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid rgba(228, 171, 16, 0.918);
+    margin: 20px auto 5px auto;
+    cursor: pointer;
 }
 
 #container {

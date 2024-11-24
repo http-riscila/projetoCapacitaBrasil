@@ -1,9 +1,11 @@
 
 
 body {
-    font-family: Helvetica;
-    background-color: black;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #000000;
     color: azure;
+    word-spacing: -1px;
+    border-radius: 10px;
 }
 
 .enfase {
@@ -12,34 +14,70 @@ body {
 
 img {
     border-radius: 10px;
+    padding: auto 10px 10px auto;
+    box-shadow: 10px 10px 0 rgba(228, 171, 16, 0.918);
 }
 
 ul {
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;    
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 3% 5% 5% 5%;
+    background-color: #0b0b0b;
+    padding: 40px 0px;
+    border-radius: 10px;
+}
+
+li {
+ background-color: #1b1c1c;
+ padding: 20px 15px 20px 15px;
+ border-radius: 10px; 
+ text-align: center;
 }
 
 form{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 5%;
+    background-color: #cccccc;
+    border-radius: 10px;
+    color: #262727;
+}
+
+.container-form {
+    justify-content: center;
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0;
+    width: 300px;
 }
 
 #container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px;
+    align-items: center;
 }
 
 #container img {
     width: 40%;
     height: auto;
+    margin: 20px 100px auto auto;
 }
 
 #texto {
     max-width: 45%;
+    text-align: justify;
 }
 
-#container h1, #container p {
-    margin: 0;
+#texto h1 {
+    color: rgba(228, 171, 16, 0.918);
+    ;
+}
+
+#texto h2{
+    padding-bottom: -2px;
 }

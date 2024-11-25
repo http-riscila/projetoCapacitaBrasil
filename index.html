@@ -1,35 +1,43 @@
 <!DOCTYPE html>
-<html lang="port">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capacita Brasil - Desenvolvimento Fullstack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <title class="enfase">Capacita Brasil - Desenvolvimento Fullstack</title>
 </head>
 <body>
     <main>
-        <h1>Desenvolvimento Fullstack</h1>
-        <p>Este curso visa qualificar seus estudantes para futura  
-            atuação na área de desenvolvimento web, fornecendo  
-            3 módulos ao longo das aulas: Básico, Intermediário e  
-            Avançado. Cada uma dessas etapas oferece o conhecimento  
-            de um setor da área, Front-end e Back-end, tornando nossos  
-            estudantes em desenvolvedores web completos, profissionais Fullstack.</p>
-        <ul>
-            <li>Formação gratuita e remota</li>  
-            <li>Aulas síncronas e assíncronas com mentores especializados</li>  
-            <li>Curso com certificação pela UECE</li>  
-            <li>Imersão completa em empresa parceira</li>  
+        <div id="container">
+        <div id="texto">
+        <h2 class="enfase">Trilha</h2>
+        <h1 class="enfase">Desenvolvimento Fullstack</h1>
+        <p>Este curso visa qualificar seus estudantes para futura atuação na área de desenvolvimento web,
+            fornecendo 3 módulos ao longo das aulas: Básico, Intermediário e Avançado.
+            Cada uma dessas etapas oferece o conhecimento de um setor da área, Front-end e Back-end,
+            tornando nossos estudantes em desenvolvedores web completos, profissionais Fullstack.</p>
+        </div>
+            <img src="https://img.freepik.com/premium-photo/african-american-black-woman-coder-programmer-using-computer-coding-screen-with-code-lines-copyspace-generative-ai_117038-5538.jpg" alt="Mulher negra analisando código em uma tela."> 
+        </div>
+        <ul class="beneficios">
+            <li>Formação gratuita <br> e remota</li>  
+            <li>Aulas síncronas e assíncronas <br> com mentores especializados</li>  
+            <li>Curso com certificação <br> pela UECE</li>  
+            <li>Imersão completa <br> em empresa parceira</li>  
         </ul>
-        <img>
         <form>
-            <h2>Inscreva-se aqui</h2>
-            <label for="nome">Nome Completo:</label><br>
-                <input type="text"><br>
+            <div class="container-form">
+            <h2 class="enfase">Inscreva-se aqui</h2>
+            <label for="nome">Nome:</label><br>
+                <input type="text" name="nome"><br>
             <label for="email">Email:</label><br>
-                <input type="email"><br>
-            <input type="button" onclick="alert('Sua inscrição foi enviada com sucesso!')" value="inscreva-se">
+                <input type="email" name="email"><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" name="telefone" placeholder="(xx) x-xxxx-xxxx"><br>
+            <button type="submit" onclick="alert('Sua inscrição foi enviada com sucesso!')">INSCREVA-SE</buttonbutton>
+            </div>
         </form>
     </main>
-    
 </body>
 </html>
